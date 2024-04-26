@@ -6,14 +6,14 @@ body {
 }
 
 h1 {
-    color: #66BFBF;
+    /* color: #66BFBF; */
     font-size: 5.625em; /* 16px = 100% = 1em So 90px = 5.625em = 100% */
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
-    color: #66BFBF;
+    /* color: #66BFBF; */
     font-size: 2,5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -58,7 +58,13 @@ img {
    background-color: #E4F9F5;
    position: relative;
    padding-top: 100px;
+   background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /*Path to your image */
+   background-size: cover; /* Cover the entire area of the container */
+   background-position: center; /* Center the background image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-attachment: fixed; 
 }
+
 
 .middle-container {
     margin: 100px 0;
